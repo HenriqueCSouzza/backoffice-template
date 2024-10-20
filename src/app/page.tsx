@@ -19,6 +19,11 @@ const DataGridTailwindDynamic = () => {
     { id: 4, firstName: "Arya", lastName: "Stark", age: 16 },
     { id: 5, firstName: "Daenerys", lastName: "Targaryen", age: 25 },
     { id: 6, firstName: "Ferrara", lastName: "Clifford", age: 44 },
+    { id: 7, firstName: "Ferrara", lastName: "Clifford", age: 44 },
+    // { id: 8, firstName: "Ferrara", lastName: "Clifford", age: 44 },
+    // { id: 9, firstName: "Ferrara", lastName: "Clifford", age: 44 },
+    // { id: 10, firstName: "Ferrara", lastName: "Clifford", age: 44 },
+    // { id: 11, firstName: "Ferrara", lastName: "Clifford", age: 44 },
   ];
 
   return <DataGrid columns={columns} rows={rows} />;
@@ -26,7 +31,7 @@ const DataGridTailwindDynamic = () => {
 
 export default function Home() {
   return (
-    <main className="w-1/2 mt-6 ml-6">
+    <main className="m-6 h-96">
       <DataGridTailwindDynamic />
     </main>
   );
