@@ -1,4 +1,4 @@
-import DataGrid from "@/components/datagrid/datagrid";
+import DataGrid from "@/components/DataGridV1";
 type RowData = {
   id: number;
   firstName: string;
@@ -26,7 +26,7 @@ const DataGridTailwindDynamic = () => {
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="w-1/2 mt-6 ml-6">
       <DataGridTailwindDynamic />
     </main>
   );
